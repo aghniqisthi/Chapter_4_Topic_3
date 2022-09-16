@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/aghni/AndroidStudioProjects/Chapter4Topic3/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/aghni/AndroidStudioProjects/Chapter4Topic3/app/src/main/res/layout/fragment_buy_product.xml" value="0.1859375" />
+        <entry key="..\:/Users/aghni/AndroidStudioProjects/Chapter4Topic3/app/src/main/res/layout/fragment_product.xml" value="0.2" />
         <entry key="..\:/Users/aghni/AndroidStudioProjects/Chapter4Topic3/app/src/main/res/layout/item_produk.xml" value="0.10714285714285714" />
       </map>
     </option>
