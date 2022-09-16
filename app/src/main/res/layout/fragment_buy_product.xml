@@ -33,6 +33,7 @@
 
             <ImageView
                 android:id="@+id/imageBuy"
+                app:imageResource="@{produk.img}"
                 android:layout_width="200dp"
                 android:layout_height="150dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +44,7 @@
                 android:id="@+id/namaBuy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Laptop"
+                android:text="@{produk.nama}"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +54,7 @@
                 android:id="@+id/hargaBuy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rp500.000"
+                android:text="@{'$' + Integer.toString(produk.harga)}"
                 android:textSize="20sp"
                 android:layout_marginTop="25dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +65,7 @@
                 android:id="@+id/descBuy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Gonna drop it like hot"
+                android:text="@{produk.desc}"
                 android:textSize="20sp"
                 android:layout_marginTop="25dp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -72,6 +73,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/hargaBuy" />
 
             <Button
+                android:id="@+id/btnBuy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="BUY"
